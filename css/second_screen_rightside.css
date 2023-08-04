@@ -1,0 +1,107 @@
+.rightside{
+    box-sizing: border-box;
+    margin-top: -600px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 700px;
+
+}
+.rightside-myprofile{
+    display: flex;
+    
+    align-items: center;
+    width: 340px;
+    height: 65px;
+    margin-bottom: 10px;
+}
+.rightside-myprofile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.rightside-myprofile-namespace{
+    margin-left: 18px;
+    
+    display: flex;
+    flex-direction: column;
+}
+#change{
+    margin-left: 135px;
+    font-size: 11px;
+    color: #0095f6;
+}
+.rightside-myprofile__name span{
+    font-size: 13px;
+    font-weight: 700;
+}
+.rightside-contents-reconmend{
+    width: 340px;
+    height: 25px;
+    margin-bottom: 18px;
+}
+.rightside-contents-reconmend span:first-child{
+    color: #bababa;
+    font-size: 16px;
+}
+.rightside-contents-reconmend span:last-child{
+    margin-left: 125px;
+    font-size: 12px;
+}
+
+.rightside-contents-people{
+    margin-bottom: 35px;
+    width: 370px;
+    height: 350px;
+  
+}
+
+.rightside-contents-people__column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.rightside-contents-people__column__contents{
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 86px;
+}
+.rightside-contents-people__column img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fbfbfb;
+}
+.otheruser span{
+    font-size: 11px;
+    font-weight: 700;
+}
+.otheruser-followers span{
+    font-size: 9px;
+    color: #737373;
+}
+#following {
+    font-size: 11px;
+    color: #0095f6;
+    padding-right: 60px;
+}
+.rightside-contents-footer span{
+    font-size: 13px;
+    color: #bababa;
+}
+.rightside__last{
+    margin-top: 20px;
+    width: 340px;
+    height: 20px;
+}
+.rightside__last span{
+    font-size: 13px;
+    color: #bababa;
+}
+.rightside-contents-people__column__contents{
+    margin-left: 5px;
+}

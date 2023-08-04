@@ -1,1 +1,6 @@
-@import "reset.css";
+@import "secondreset.css";
+@import "css/secondscreenleftsidebar.css";
+@import "css/secondscreen_middle_header.css";
+@import "css/secondscreen_middle.css";
+@import "css/second_screen_rightside.css";
+

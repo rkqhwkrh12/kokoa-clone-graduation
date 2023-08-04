@@ -1,0 +1,97 @@
+.middle-screen-contents{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    width: 480px;
+  
+
+}
+
+.content__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 33px;
+    margin-left: 900px;
+    width: 470px;
+    height: 53px;
+
+}
+
+.content__header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #d50ec8;
+
+}
+.content__header__namespace{
+    margin-right: 250px;
+}
+
+
+#username{
+    font-size: 14px;
+    font-weight: 600;
+}
+#time{
+    font-size: 13px;
+}
+.position span{
+    font-size: 10px;
+}
+.middle-screen-contents__pictures{
+    margin-left: 900px;
+    width: 470px;
+   
+    border: 1px solid #f6f6f6;
+}
+.middle-screen-contents__pictures img{
+    width: 470px;
+    height: 470px;
+}
+.respose{
+    display: flex;
+    justify-content: space-between;
+}
+.respose i{
+    font-size: 23px;
+
+}
+.fa-location-arrow{
+    margin-right: 340px;
+}
+.picture-whole-contents{
+    width: 470px;
+    
+}
+.picture-whole-contents{
+    margin-top: 18px;
+}
+.likes span{
+    font-size: 16px;
+    font-weight: 700;
+}
+.picture-contents{
+    margin-top: 12px;
+}
+#name{
+    font-size: 12px;
+    font-weight: 600;
+}
+.picture-contents__realcontent{
+    margin-top: 15px;
+}
+.picture-contents__chats{
+    margin-top: 12px;
+}
+.picture-contents__chats span{
+    font-size: 16px;
+}
+.picture-contents__chats__myprofile{
+    margin-top: 10px;
+}
+.picture-contents-peoplecomment{
+    margin-top: 13px;
+}
