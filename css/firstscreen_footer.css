@@ -1,0 +1,35 @@
+.footerscreen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    width: 950px;
+    height: 85px;
+   
+}
+.footerscreen__contents{
+    color: #737373;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 950px;
+    height: 24px;
+  
+    margin-bottom: 25px;
+}
+.footerscreen__contents span {
+    font-size: 14px;
+}
+.footerscreen__language{
+    color: #737373;
+    display: flex;
+    justify-content: space-between;
+}
+.footerscreen__language span {
+    font-size: 14px;
+}
+.footerscreen__language i {
+    font-size: 14px;
+    margin: 0px 5px;
+
+}

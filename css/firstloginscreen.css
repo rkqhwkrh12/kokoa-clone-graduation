@@ -1,0 +1,159 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginform_and_Image{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 780px;
+    height: 600px;
+  
+}
+.IphoneImage{
+    width: 385px;
+    height: 620px;
+}
+
+.login-screen{
+    margin-left: 40px;
+    width: 355px;
+    height: 575px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+   
+}
+.instagram-image{
+    
+    width: 183px;
+    height: 64px;
+    margin: 30px 83px;
+}
+.login-screen__form{
+    width: 380px;
+    height: 398px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -60px;
+    margin-bottom: 15px;
+    border: 1px solid #ededed;
+    
+}
+
+#password {
+    margin-top: 5px;
+
+}
+
+input:required{
+    width: 270px;
+    height: 35px;
+    border-radius: 7px;
+    background-color: #fafafa;
+    border-color: rgba(0, 0, 0, 0.2);
+ 
+}
+
+
+
+input[type="submit"] {
+    margin-top: 14px;
+    margin-bottom: 16px;
+    width: 270px;
+    height: 34px;
+    border-radius: 7px;
+    background-color: #4cb5f9;
+    border: 0px;
+     color: white;
+}
+
+
+.login-screen__form-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 20px;
+
+    margin-bottom: 27px;
+}
+.bar__box{
+    width: 100px;
+    height: 2px;
+    background-color: gray;
+}
+.login-screen__form-bar > span{
+    font-size: 12px;
+    margin: 0px 20px;
+
+}
+.login-screen__form-byfacebook {
+    display: flex;
+    
+    align-items: center;
+    width: 170px;
+    height: 25px;
+
+    margin-bottom: 23px;
+}
+.fa-square-facebook{
+    width: 17px;
+    height: 17px;
+   
+}
+.login-screen__form-byfacebook > h2 {
+    font-size: 14px;
+    color: #385190;
+}
+.login-screen__form > h3 {
+    font-size: 12px;
+    color: #00376b;
+    margin-bottom: 24px;
+}
+
+.login-screen__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+    height: 170px;
+    
+}
+.login-screen__footer__questionbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 65px;
+    border: 1px solid #ededed;
+    margin-bottom: 17px;
+}
+.login-screen__footer__questionbox span{
+    font-size: 14px;
+}
+#enroll{
+    margin-left: 4px;
+    color: #00a2f8;
+    font-weight: 700;
+}
+
+.login-screen__footer h4{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+#google{
+    width: 130px;
+    height: 40px;
+}
+#microsoft{
+    width: 100px;
+    height: 40px;
+}
