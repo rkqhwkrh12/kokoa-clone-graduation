@@ -1,6 +1,7 @@
 .middle-screen{
     width: 688px;
-    margin-top: -150px;
+    height: 100vh;
+    
     display: flex;
     flex-direction: column;
 }
@@ -12,9 +13,10 @@
     margin-top: -300px;
     margin-left: 360px;
     width: 670px;
-    height: 105px;
+    height: 100vh
     
 }
+
 .middle-screen-instastorys div {
     display: flex;
     flex-direction: column;
@@ -24,14 +26,76 @@
     height: 90px;
    
 }
+
+@keyframes imgRotation {
+    0%{
+        transform: none;
+    }
+    50% {
+        transform: scale(0.6);
+    }
+    100% {
+        transform: none;
+    }
+}
+@keyframes iAnimation {
+    0%{
+        transform: none;
+        opacity: 1;
+    }
+    50% {
+        color: black;
+        opacity: 0.3;
+        transform: scale(0.4);
+    }
+    100% {
+        opacity: 1;
+    }   
+    
+}
+@keyframes smallTobig {
+    0% {
+        transform: none;
+    }
+    50%{
+        transform: scale(0.5)
+    }
+    100%{
+        transform: none;
+    }
+}
+.respose i:hover{
+    animation: smallTobig 3s ease-in-out infinite;
+}
+
+.instastory__contents:hover{
+    animation: imgRotation 3s ease-in-out infinite ;
+}
+.content__header img:hover{
+    animation: imgRotation 3s ease-in-out infinite ;
+}
+.content__header i:hover{
+    animation:iAnimation 2s ease-in-out infinite ;
+}
+.LeftSide-screen__contents i:hover{
+    animation: smallTobig 3s ease-in-out infinite;
+}
+.LeftSide-screen__contents__real img:hover{
+    animation: smallTobig 3s ease-in-out infinite;
+}
+
 .instastory__contents img{
     width: 65px;
     height: 65px;
     border-radius: 50%;
     border: 2px solid #d50ec8;
+    
+
+
 }
 .instastory__contents span {
     margin-top: 9px;
     font-size: 10px;
     font-weight: 700;
 }
+

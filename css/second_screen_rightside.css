@@ -4,15 +4,16 @@
     margin-left: 400px;
     display: flex;
     flex-direction: column;
-    width: 370px;
+    width: 400px;
     height: 700px;
 
 }
+
 .rightside-myprofile{
     display: flex;
     
     align-items: center;
-    width: 340px;
+    width: 400px;
     height: 65px;
     margin-bottom: 10px;
 }
@@ -28,7 +29,7 @@
     flex-direction: column;
 }
 #change{
-    margin-left: 135px;
+    margin-left: 160px;
     font-size: 11px;
     color: #0095f6;
 }
@@ -37,7 +38,7 @@
     font-weight: 700;
 }
 .rightside-contents-reconmend{
-    width: 340px;
+    width: 400px;
     height: 25px;
     margin-bottom: 18px;
 }
@@ -46,18 +47,19 @@
     font-size: 16px;
 }
 .rightside-contents-reconmend span:last-child{
-    margin-left: 125px;
+    margin-left: 155px;
     font-size: 12px;
 }
 
 .rightside-contents-people{
     margin-bottom: 35px;
-    width: 370px;
+    width: 400px;
     height: 350px;
   
 }
 
 .rightside-contents-people__column{
+    width: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,11 +78,13 @@
     border-radius: 50%;
     border: 1px solid #fbfbfb;
 }
+
 .otheruser span{
     font-size: 11px;
     font-weight: 700;
 }
 .otheruser-followers span{
+    
     font-size: 9px;
     color: #737373;
 }

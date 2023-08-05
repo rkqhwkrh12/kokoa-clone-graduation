@@ -12,9 +12,26 @@ body{
     height: 600px;
   
 }
+
+
+@keyframes IphoneImageAnimation {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: none;
+    }
+    
+}
 .IphoneImage{
+    
+    margin-top: 30px;
     width: 385px;
     height: 620px;
+    animation: IphoneImageAnimation 5s ease-in-out infinite;
 }
 
 .login-screen{
