@@ -46,7 +46,7 @@ table {
 html, body{
     display: flex;
     align-items: center;
-    width: 1500px;
+    width: 100vw;
     height: 200vh;
 	position: relative;
   
