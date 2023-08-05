@@ -4,3 +4,8 @@
 @import "css/secondscreen_middle.css";
 @import "css/second_screen_rightside.css";
 @import "css/media.css";
+
+html,body{
+    position: relative;
+
+}
