@@ -42,12 +42,3 @@ table {
 	border-spacing: 0;
 }
 
-html, body{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-    width: 1500px;
-    height: 100vh;
-  
-}
