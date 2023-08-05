@@ -2,3 +2,10 @@
 @import "css/firstloginscreen.css";
 @import "css/firstscreen_footer.css";
 @import "css/media.css";
+
+
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
