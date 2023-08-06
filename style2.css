@@ -13,7 +13,12 @@
     .rightside{
         display: none;
     }
+    .middle-screen{
+        margin-left:40px ;
+    }
 }
+
+
 
 html{
 	display: flex;
