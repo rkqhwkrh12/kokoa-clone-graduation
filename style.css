@@ -1,10 +1,22 @@
 @import "reset.css";
 @import "css/firstloginscreen.css";
 @import "css/firstscreen_footer.css";
-@import "css/media.css";
+@import "css/mediaquery.css";
 
 
+@media screen and (max-width: 500px) {
+	.IphoneImage{
+        display: none;
+    }
+    .footerscreen{
+        display: none;
+    }
+	.login-screen{
+		margin-left: 218px;
+	}
 
+	
+}
 
 html{
 	display: flex;
